@@ -1,4 +1,0 @@
-<resources>
-    <string name="app_name">String Resource</string>
-    <string name="format_string">&lt;b>STOP&lt;/b>.%1s</string>
-</resources>
