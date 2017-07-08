@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/calanderAddDialogHolder"
+    android:paddingBottom="20dp">
+
+    <TextView
+        android:text="Event"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:id="@+id/nameTextView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="35dp"
+        android:id="@+id/addNameTextView"
+        android:layout_below="@+id/nameTextView"
+        android:layout_alignStart="@+id/nameTextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:hint="Bhavik's Birthday" />
+
+    <TextView
+        android:text="Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addNameTextView"
+        android:layout_alignStart="@+id/addNameTextView"
+        android:layout_marginTop="35dp"
+        android:id="@+id/dateTextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:layout_below="@+id/dateTextView"
+        android:layout_alignStart="@+id/dateTextView"
+        android:layout_marginTop="35dp"
+        android:id="@+id/addDateTextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:hint="21/09/18" />
+
+    <Button
+        android:text="Cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cancelButton"
+        android:elevation="0dp"
+        android:layout_below="@+id/addDateTextView"
+        android:layout_alignStart="@+id/addDateTextView"
+        android:layout_marginTop="74dp" />
+
+    <Button
+        android:text="Add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="42dp"
+        android:id="@+id/addButton"
+        android:layout_alignBaseline="@+id/cancelButton"
+        android:layout_alignBottom="@+id/cancelButton"
+        android:layout_toEndOf="@+id/cancelButton" />
+
+</RelativeLayout>
