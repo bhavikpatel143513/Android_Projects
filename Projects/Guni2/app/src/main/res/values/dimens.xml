@@ -1,0 +1,38 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+    <dimen name="guniThemeRadius">15dp</dimen>
+    <dimen name="guniThemeMargin">5dip</dimen>
+    <dimen name="guniThemePadding">10dip</dimen>
+    <dimen name="guniThemeIconWidth">48dip</dimen>
+    <dimen name="guniThemeIconHeight">48dip</dimen>
+
+    <dimen name="guniThemeButtonMargin">5dip</dimen>
+    <dimen name="guniThemeButtonPadding">5dip</dimen>
+    <dimen name="guniThemeButtonRadius">5dp</dimen>
+    <dimen name="guniThemeButtonStroke">2dp</dimen>
+
+    <dimen name="guniThemeListItemRadius">0dp</dimen>
+    <dimen name="guniThemeListItemSeperation">15dip</dimen>
+    <dimen name="guniThemeListItemMargin">5dip</dimen>
+    <dimen name="guniThemeListItemMarginL">5dip</dimen>
+    <dimen name="guniThemeListItemMarginR">5dip</dimen>
+    <dimen name="guniThemeListItemMarginU">5dip</dimen>
+    <dimen name="guniThemeListItemMarginD">5dip</dimen>
+    <dimen name="guniThemeListItemStroke">2dp</dimen>
+    <dimen name="guniThemeListItemPadding">5dip</dimen>
+    <dimen name="guniThemeListItemPaddingL">5dip</dimen>
+    <dimen name="guniThemeListItemPaddingR">5dip</dimen>
+    <dimen name="guniThemeListItemPaddingU">5dip</dimen>
+    <dimen name="guniThemeListItemPaddingD">5dip</dimen>
+
+    <dimen name="guniThemeListItemContentStroke">2dp</dimen>
+    <dimen name="guniThemeListItemContentRadius">10dp</dimen>
+</resources>

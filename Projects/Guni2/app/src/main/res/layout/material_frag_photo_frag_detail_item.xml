@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:id="@+id/materialFragPhotoFragDetailItemContainerLL">
+    <!--android:background="@drawable/grid_color_selector"-->
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/materialFragPhotoFragDetailItemImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <ImageView
+            app:srcCompat="@drawable/ic_check_white_24dp"
+            android:id="@+id/materialFragPhotoFragDetailItemCheckImageView"
+            android:layout_height="24dp"
+            android:layout_width="24dp"
+            android:layout_gravity="bottom|right"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/materialFragPhotoFragDetailItemTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:text="bhavik.jpg"
+        android:layout_gravity="bottom" />
+
+</LinearLayout>

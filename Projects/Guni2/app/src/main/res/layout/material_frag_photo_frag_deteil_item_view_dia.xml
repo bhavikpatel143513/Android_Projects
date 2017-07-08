@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="@color/guniThemeBackground">
+
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="480dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:id="@+id/materialFragPhotoFragDetailItemViewImageView"
+        android:layout_centerVertical="false"
+        android:layout_centerHorizontal="false" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/materialFragPhotoFragDetailItemViewMenuRL"
+        android:visibility="gone">
+
+        <Button
+            android:text="Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/materialFragPhotoFragDetailItemViewDeleteButton" />
+    </RelativeLayout>
+</RelativeLayout>
