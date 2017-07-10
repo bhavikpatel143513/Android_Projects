@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Subject : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/attendenceDiaSubTV"
+            android:layout_marginStart="42dp"
+            android:layout_alignBaseline="@+id/attendenceDiaSubET"
+            android:layout_alignBottom="@+id/attendenceDiaSubET"
+            android:layout_alignParentStart="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/attendenceDiaSubET"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="18sp"
+            android:hint="Android"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_row="0"
+            android:layout_column="2" />
+    </GridLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="Cancle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/attendenceDiaSubCancleButton"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="Add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/attendenceDiaSubAddButton"
+            android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>

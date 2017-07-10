@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:paddingBottom="20dp">
+
+    <TextView
+        android:text="Subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:id="@+id/subjectNameTextView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="55dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="14sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/subjectNameTextView"
+        android:layout_alignStart="@+id/subjectNameTextView"
+        android:layout_marginTop="35dp"
+        android:id="@+id/subjectNameEditText"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:hint="Android Development" />
+
+    <TextView
+        android:text="Creadit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subjectNameEditText"
+        android:layout_alignStart="@+id/subjectNameEditText"
+        android:layout_marginTop="35dp"
+        android:id="@+id/creaditTextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_below="@+id/creaditTextView"
+        android:layout_alignStart="@+id/creaditTextView"
+        android:layout_marginTop="35dp"
+        android:id="@+id/creaditEditText"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:hint="13" />
+
+    <Button
+        android:text="Cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/creaditEditText"
+        android:layout_alignStart="@+id/creaditEditText"
+        android:layout_marginTop="60dp"
+        android:id="@+id/creaditCancelButton" />
+
+    <Button
+        android:text="Add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/creaditCancelButton"
+        android:layout_toEndOf="@+id/creaditCancelButton"
+        android:layout_marginStart="50dp"
+        android:id="@+id/creaditAddButton" />
+</RelativeLayout>

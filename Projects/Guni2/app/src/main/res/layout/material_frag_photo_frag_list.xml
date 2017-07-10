@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:id="@+id/materialFragPhotoFragTopRL"
+            android:background="@color/guniThemeText">
+
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/guniThemeBackground"
+                android:theme="?attr/actionBarTheme"
+                android:minHeight="?attr/actionBarSize"
+                android:id="@+id/materialFragPhotoFragToolbar"
+                app:title="Subjects"
+                android:layout_marginBottom="2dp" />
+        </RelativeLayout>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/materialFragPhotoFragListView"
+            android:layout_below="@+id/materialFragPhotoFragTopRL"
+            android:background="@color/guniThemeBackground"
+            android:layout_above="@+id/materialFragPhotoFragBottomRL" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/guniThemeText"
+            android:id="@+id/materialFragPhotoFragBottomRL">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="false"
+                android:background="@color/guniThemeBackground"
+                android:layout_marginTop="2dp">
+
+                <ImageButton
+                    android:layout_width="@android:dimen/app_icon_size"
+                    android:layout_height="@android:dimen/app_icon_size"
+                    app:srcCompat="@drawable/ic_menu_white_24dp"
+                    android:id="@+id/materialFragPhotoFragMenuButton"
+                    android:layout_gravity="center"
+                    android:background="@color/guniThemeBackground" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_toLeftOf="@+id/materialFragPhotoFragAddButton"
+                    android:layout_toRightOf="@+id/materialFragPhotoFragMenuButton"
+                    android:background="@color/guniThemeText"
+                    android:layout_height="50dp">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="@android:dimen/app_icon_size"
+                        android:inputType="textPersonName"
+                        android:ems="10"
+                        android:id="@+id/materialFragPhotoFragNewSubET"
+                        android:textColor="@color/guniThemeText"
+                        android:background="@color/guniThemeBackground"
+                        android:hint="New Subject"
+                        android:textColorHint="@android:color/darker_gray" />
+                </RelativeLayout>
+
+                <Button
+                    android:text="Add"
+                    android:layout_width="?attr/actionBarSize"
+                    android:layout_height="@android:dimen/app_icon_size"
+                    android:id="@+id/materialFragPhotoFragAddButton"
+                    android:background="@color/guniThemeBackground"
+                    android:textColor="@color/guniThemeText"
+                    android:gravity="center"
+                    android:layout_alignParentEnd="true"
+                    android:layout_weight="1" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/materialFragPhotoFragMenuRL"
+            android:background="@color/guniThemeTransparent"
+            android:visibility="gone"
+            android:gravity="bottom"
+            android:layout_alignParentBottom="false"
+            android:layout_below="@+id/materialFragPhotoFragListView">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@android:dimen/app_icon_size"
+                android:id="@+id/materialFragPhotoFragMenuAnimRightLeftRL"
+                android:layout_alignParentBottom="true">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="@android:dimen/app_icon_size"
+                        app:srcCompat="@drawable/ic_delete_white_24dp"
+                        android:id="@+id/materialFragPhotoFragMenuDeleteButton"
+                        android:layout_weight="1"
+                        android:background="@color/guniThemeBackground" />
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="@android:dimen/app_icon_size"
+                        app:srcCompat="@drawable/ic_cancel_white_24dp"
+                        android:id="@+id/materialFragPhotoFragMenuCancleButton"
+                        android:layout_weight="1"
+                        android:background="@color/guniThemeBackground" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <ImageButton
+                            android:layout_width="match_parent"
+                            android:layout_height="@android:dimen/app_icon_size"
+                            app:srcCompat="@drawable/ic_check_box_white_24dp"
+                            android:id="@+id/materialFragPhotoFragMenuUnCheckButton"
+                            android:background="@color/guniThemeBackground" />
+
+                        <ImageButton
+                            android:layout_width="match_parent"
+                            android:layout_height="@android:dimen/app_icon_size"
+                            app:srcCompat="@drawable/ic_check_box_outline_blank_white_24dp"
+                            android:id="@+id/materialFragPhotoFragMenuCheckButton"
+                            android:background="@color/guniThemeBackground" />
+
+                    </RelativeLayout>
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="@android:dimen/app_icon_size"
+                        app:srcCompat="@drawable/ic_mode_edit_white_24dp"
+                        android:id="@+id/materialFragPhotoFragMenuEditButton"
+                        android:layout_weight="1"
+                        android:background="@color/guniThemeBackground" />
+
+                </TableRow>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

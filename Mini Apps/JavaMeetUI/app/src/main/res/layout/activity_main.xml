@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.gamecodeschool.javameetui.MainActivity">
+
+
+    <TextView
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:id="@+id/txtValue" />
+
+    <Button
+        android:text="Add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtValue"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="60dp"
+        android:id="@+id/btnAdd" />
+
+    <Button
+        android:text="Grow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnAdd"
+        android:layout_alignLeft="@+id/btnAdd"
+        android:layout_alignStart="@+id/btnAdd"
+        android:layout_marginTop="36dp"
+        android:id="@+id/btnGrow" />
+
+    <Button
+        android:text="Hide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnGrow"
+        android:layout_alignLeft="@+id/btnGrow"
+        android:layout_alignStart="@+id/btnGrow"
+        android:layout_marginTop="43dp"
+        android:id="@+id/btnHide" />
+
+    <Button
+        android:text="take"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnAdd"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="29dp"
+        android:layout_marginEnd="29dp"
+        android:id="@+id/btnTake" />
+
+    <Button
+        android:text="Shrink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnGrow"
+        android:layout_alignLeft="@+id/btnTake"
+        android:layout_alignStart="@+id/btnTake"
+        android:id="@+id/btnShrink" />
+
+    <Button
+        android:text="Reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnHide"
+        android:layout_alignLeft="@+id/btnShrink"
+        android:layout_alignStart="@+id/btnShrink"
+        android:id="@+id/btnReset" />
+</RelativeLayout>

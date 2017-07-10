@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/guni_theme_list_item_background"
+    android:layout_marginBottom="@dimen/guniThemeListItemSeperation"
+    android:layout_marginTop="@dimen/guniThemeListItemSeperation"
+    android:padding="@dimen/guniThemeListItemStroke">
+
+    <RelativeLayout
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:id="@+id/walletContentListViewItemType"
+        android:alpha="1"
+        android:background="@color/guniThemeListItemHeaderBackgroundBenefit">
+
+    </RelativeLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/guniThemeListItemPadding"
+        android:id="@+id/walletContentListViewItemContainer"
+        android:background="@drawable/guni_theme_list_item_select">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:text="Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/walletContentListViewItemTitleTV"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:textStyle="normal|bold|italic"
+                android:textSize="14sp"
+                android:textColor="@color/guniThemeText"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:maxWidth="150dp"
+                android:layout_margin="@dimen/guniThemeListItemMargin" />
+
+            <TextView
+                android:text="Amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/walletContentListViewItemAmountTV"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:textStyle="normal|bold"
+                android:textSize="14sp"
+                android:textColor="@color/guniThemeText"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:maxWidth="150dp"
+                android:layout_margin="@dimen/guniThemeListItemMargin" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/walletContentListViewItemDescriptionTV"
+                android:textColor="@color/guniThemeBackground"
+                android:background="@drawable/guni_theme_list_item_content_background"
+                android:text="asc aksncjs vsdanv dv  dfv vd fv df vdfdf vbdf b f es vdsf vdb fd vbdf a vbfdsb fdb"
+                android:layout_weight="1"
+                android:layout_span="3"
+                android:layout_margin="@dimen/guniThemeListItemMargin"
+                android:padding="@dimen/guniThemeListItemPadding" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    app:srcCompat="@drawable/ic_account_balance_wallet_white_24dp"
+                    android:id="@+id/imageView"
+                    android:layout_centerVertical="true"
+                    android:layout_weight="0"
+                    android:layout_margin="@dimen/guniThemeListItemMargin" />
+
+                <TextView
+                    android:text="513/-"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/walletContentListViewItemRemainingTV"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:textColor="@color/guniThemeText"
+                    android:textSize="10sp"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/imageView"
+                    android:textStyle="normal|bold"
+                    android:layout_margin="@dimen/guniThemeListItemMargin" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:text="DD/MM/YY"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:textColor="@color/guniThemeText"
+                android:id="@+id/walletContentListViewItemDateTV"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/guniThemeListItemMargin" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
