@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FragmentSlider.iml" filepath="$PROJECT_DIR$/FragmentSlider.iml" />
+      <module fileurl="file://I:\github\Android_Projects\Mini Apps\FragmentSlider\FragmentSlider.iml" filepath="I:\github\Android_Projects\Mini Apps\FragmentSlider\FragmentSlider.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://I:\github\Android_Projects\Mini Apps\FragmentSlider\app\app.iml" filepath="I:\github\Android_Projects\Mini Apps\FragmentSlider\app\app.iml" />
     </modules>
   </component>
 </project>
