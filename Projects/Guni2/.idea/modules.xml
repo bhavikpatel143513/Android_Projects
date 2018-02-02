@@ -3,9 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Guni2.iml" filepath="$PROJECT_DIR$/Guni2.iml" />
+      <module fileurl="file://I:\codes\AndroidStudioProjects\Android_Projects\Projects\Guni2\Guni2.iml" filepath="I:\codes\AndroidStudioProjects\Android_Projects\Projects\Guni2\Guni2.iml" />
       <module fileurl="file://I:\github\Android_Projects\Projects\Guni2\Guni2.iml" filepath="I:\github\Android_Projects\Projects\Guni2\Guni2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://I:\github\Android_Projects\Projects\Guni2\app\app.iml" filepath="I:\github\Android_Projects\Projects\Guni2\app\app.iml" />
+      <module fileurl="file://I:/github/Android_Projects/Projects/Guni2/app/app.iml" filepath="I:/github/Android_Projects/Projects/Guni2/app/app.iml" />
+      <module fileurl="file://I:\codes\AndroidStudioProjects\Android_Projects\Projects\Guni2\app\app.iml" filepath="I:\codes\AndroidStudioProjects\Android_Projects\Projects\Guni2\app\app.iml" />
     </modules>
   </component>
 </project>
